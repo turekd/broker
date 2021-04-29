@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+  datasource:
+    initialization-mode: always
+    url: ${infra.db.url}
+    username: ${infra.db.username}
+    password: ${infra.db.password}
