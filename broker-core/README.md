@@ -17,9 +17,10 @@ You need to have installed:
 
 #### Instruction
 
+1. Build `broker-api`.
 1. Build the application `mvn clean install`.
-2. Set environment properties to setup JDBC:
+1. Set environment properties to setup JDBC:
     * `infra.db.url` - containing JDBC url,
     * `infra.db.username` - DB username,
     * `infra.db.password` - DB password
-3. Start the app `mvn spring-boot:run`. 
+1. Start the app `mvn spring-boot:run`. 
